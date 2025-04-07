@@ -7,7 +7,7 @@ It works by repeatedly dividing the search interval in half. The key to implemen
 
 ## Interval Types
 
-### Closed Interval `[left, right]`
+### Closed Interval `[left, right]` -> right = array.size - 1
 
 - Loop condition: `while (left <= right)`
 - Update rules:
@@ -15,7 +15,7 @@ It works by repeatedly dividing the search interval in half. The key to implemen
   - If `nums[mid] > target`: move `right = mid - 1`
 - This approach ensures all elements between `left` and `right` (inclusive) are considered.
 
-### Half-Open Interval `[left, right)`
+### Half-Open Interval `[left, right)`  -> right = array.size
 
 - Loop condition: `while (left < right)`
 - Update rules:
@@ -63,3 +63,4 @@ It works by repeatedly dividing the search interval in half. The key to implemen
 | #    | Title         | Link                                           | Difficulty |
 | ---- | ------------- | ---------------------------------------------- | ---------- |
 | 704  | Binary Search | [704-Binary-Search.md](./704-Binary-Search.md) | Easy       |
+| 35  | Search Insert Position | [35-Search_Insert_Position.md](./35-Search_Insert_Position.md) | Easy       |
