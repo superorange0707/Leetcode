@@ -1,0 +1,51 @@
+# Binary Search
+
+Binary search is a powerful to find elements in a sorted array in O(log n) time. It works by repeatedly dividing the search interval in half. The key is to understand the variations:
+
+- **Closed** interval **[Left, Right]** -> **while(left <= right)** -> **middle = right -1** to make sure we don't revisit the  previous middle index again
+
+- **Half-open** interval **[Left, Right)** -> **while (left < right)**: the right index won't be vistied -> **middle = right** so we can make sure all elements in the left boundary can get vistied. If we set  **middle = right - 1**, one element will be missed.
+
+---
+
+## Tips
+
+- This approach assume Array is sorted and all elements are unique!
+- Use **`mid = left + (right - left) // 2`** to avoid overflow
+- Always consider edge cases like empty array, one element, or all duplicates
+
+
+
+---
+
+## Common Patterns
+
+| Pattern        | Loop Type             | Conditions                             |
+| -------------- | --------------------- | -------------------------------------- |
+| Standard       | while (left <= right) | if nums[mid] == target:  Return mid    |
+| Left Boundary  | while (left <= right) | if nums[mid] > target: right = mid - 1 |
+| Right Boundary | while (left <= right) | if nums[mid] < target: left = mid + 1  |
+
+
+
+| Pattern        | Loop Type            | Conditions                            |
+| -------------- | -------------------- | ------------------------------------- |
+| Standard       | while (left < right) | if nums[mid] == target:  Return mid   |
+| Left Boundary  | while (left < right) | if nums[mid] > target: right = mid    |
+| Right Boundary | while (left < right) | if nums[mid] < target: left = mid + 1 |
+
+
+
+
+---
+
+
+
+
+
+## Problems
+
+|    # | Title            | Link                         | Difficulty |
+| ---: | ---------------- | ---------------------------- | ---------- |
+|  704 | Binary Search    | [Link](./704-Binary-Search.md) | Easy       |
+    |
