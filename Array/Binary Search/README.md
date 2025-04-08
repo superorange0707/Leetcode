@@ -64,3 +64,4 @@ It works by repeatedly dividing the search interval in half. The key to implemen
 | ---- | ------------- | ---------------------------------------------- | ---------- |
 | 704  | Binary Search | [704-Binary-Search.md](./704-Binary-Search.md) | Easy       |
 | 35  | Search Insert Position | [35-Search_Insert_Position.md](./35-Search_Insert_Position.md) | Easy       |
+| 69  | Sqrt(x) | [69-Sqrt(x).md](./69-Sqrt(x).md) | Easy       |
