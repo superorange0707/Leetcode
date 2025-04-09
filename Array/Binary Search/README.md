@@ -65,4 +65,5 @@ It works by repeatedly dividing the search interval in half. The key to implemen
 | 704  | Binary Search | [704-Binary-Search.md](./704-Binary-Search.md) | Easy       |
 | 35  | Search Insert Position | [35-Search_Insert_Position.md](./35-Search_Insert_Position.md) | Easy       |
 | 69  | Sqrt(x) | [69-Sqrt(x).md](./69-Sqrt(x).md) | Easy       |
-| 367  | Valid Perfect Square | [367-Valid Perfect Square.md](./367-Valid Perfect Square.md) | Easy       |
+| 367  | Valid Perfect Square | [367-Valid_Perfect_Square.md](./367-Valid_Perfect_Square.md) | Easy       |
+| 34  | Find First and Last Position of Element in Sorted Array | [34-Find_First_and_Last_Position_of_Element_in_Sorted_Array.md](./34-Find_First_and_Last_Position_of_Element_in_Sorted_Array.md) | Medium       |
