@@ -12,7 +12,7 @@
 
 ## Idea
 
-> Since the array is sorted, binary search is the most efficient choice (O(log n)).
+> binary search is efficient choice (O(log n)).
 
 ---
 
